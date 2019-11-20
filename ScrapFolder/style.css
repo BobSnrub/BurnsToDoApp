@@ -1,0 +1,40 @@
+.xCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.yCenter{
+    display: flex;
+    align-items: center;
+}
+
+.list-box{
+    border: 1px solid rgb(58, 58, 58);   
+}
+
+.input-box{
+    width: inherit;
+}
+
+.item-box{
+    min-height: 22px;
+    min-width: 22px;
+    padding-left: 5px;
+}
+
+.list-group-item{
+    /* height: 35px; */
+    min-height: min-content;
+    width: inherit;
+}
+
+.addListBtn{
+    font-size: 12px;
+    width: fit-content;
+    height: 22px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
+}
