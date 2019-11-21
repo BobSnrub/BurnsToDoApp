@@ -10,27 +10,26 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
+    <!-- <a href="https://icons8.com/icon/PE50MiaFV893/delete">Delete icon by Icons8</a> -->
 
-    <title>BurnsToDoApp</title>
+    <title>Hello, world!</title>
 </head>
 
 <body>
     <div class="container">
-        <div class="container">
-            <div class="row">
-                <div class="col center m-4">
-                    <h1><b class="">Robert's To Do List</b></h1>
-                </div>
-                <div class="col center m-4">
-                    <button type="button" class="btn btn-danger">Warning</button>
-                </div>
-            </div>
-            <div class="list-box">
-                <div class="input-group-text">
-                    <input type="checkbox" aria-label="Checkbox for following text input">
-                </div>
-                <div class="input-group-text">
-                    <input type="checkbox" aria-label="Checkbox for following text input">
+        <div class="col-12 xCenter">
+            <h1 class="p-4">Robert's ToDo App</h1>
+        </div>
+        <div class="container-fluid px-1 px-md-5">
+            <div id="addElements" class="list-box text-wrap">
+                <div class="box-top border-bottom border-dark">
+                    <img class="border border-danger ml-1"
+                        src="https://img.icons8.com/officexs/16/000000/delete-sign.png" alt="Delete" width="20px">
+                    <button class="btn btn-dark btn-sm addListBtn"><b>Add List</b></button>                    
+                    <label class="px-3" for="keyPress">Enter Task Below:</label>
+                    <div class="col-12 px-1">
+                        <input id="keyPress" type="text" class="input-box mt-1 mb-1" placeholder="Press Enter to Add Item">
+                    </div>
                 </div>
             </div>
         </div>

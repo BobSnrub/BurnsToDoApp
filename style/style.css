@@ -1,17 +1,42 @@
-/* .cont-bg{
-    background-color: rgb(231, 231, 231);
-} */
+.xCenter{
+    display: flex;
+    justify-content: center;
+}
+
+p { word-break: break-all }
+
+.yCenter{
+    display: flex;
+    align-items: center;
+}
 
 .list-box{
     border: 1px solid rgb(58, 58, 58);   
 }
 
-.center{
-    display: flex;
-    justify-content: center;
+.input-box{
+    width: inherit;
 }
 
-.input-group-text{
-    min-width: 50px;
-    margin: 12px;
+.item-check{
+    /* height: 22px;
+    width: 22px; */
+    zoom: 1.95;
+    padding-left: 5px;
+}
+
+.list-group-item{
+    /* height: 35px; */
+    height: fit-content;
+}
+
+.addListBtn{
+    font-size: 12px;
+    width: fit-content;
+    height: 22px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 3px;
 }
